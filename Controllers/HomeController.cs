@@ -7,7 +7,6 @@ namespace TP04_Ahorcado.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    int contadorLetrasAcertadas = 0;
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
@@ -22,41 +21,16 @@ public class HomeController : Controller
     {
         return View("Juego");
     }
-    public IActionResult Ahorcado(char charArriesgado, string stringArriesgado)
+    public IActionResult ahorcadoChar(char charArriesgado)
     {
-        string view = "Juego";
         Partida.sumarIntento();
-        if(stringArriesgado == null)
-        {
-            bool existe = false;
-            foreach(char char1 in Partida.letrasArriesga)
-            {
-                if(char1 == charArriesgado)
-                {
-                    existe = true;
-                }
-            }
-            if(existe == false)
-            {
-                Partida.letrasArriesga.Add(charArriesgado);
-                foreach(char charPalabra in Partida.palabra)
-                {
-                    if(charArriesgado == charPalabra)
-                    {
-                    contadorLetrasAcertadas++;
-                    }
-                }
-            }
-        }else
-        {
-            if(stringArriesgado ==  Partida.palabraReal)
-            {
-                view = "Ganar";
-            }else
-            {
-                view = "Perder";
-            }
-        }
+        string view = Partida.charAhorcado(charArriesgado);
+        return View(view);
+    }
+    public IActionResult ahorcadoString(string stringArriesgado)
+    {
+        Partida.sumarIntento();
+        string view = Partida.stringAhorcado(stringArriesgado);
         return View(view);
     }
 }
