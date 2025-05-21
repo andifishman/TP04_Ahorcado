@@ -25,6 +25,9 @@ public class HomeController : Controller
     {
         Partida.sumarIntento();
         string view = Partida.charAhorcado(charArriesgado);
+        ViewBag.intentos = Partida.intentos;
+        ViewBag.palabra = Partida.palabraReal;
+        ViewBag.buenas = Partida.contadorLetrasAcertadas;
         return View(view);
     }
     public IActionResult ahorcadoString(string stringArriesgado)
