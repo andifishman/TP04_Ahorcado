@@ -1,29 +1,29 @@
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\appsettings.Development.json
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\appsettings.json
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\TP04_Ahorcado.staticwebassets.runtime.json
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\TP04_Ahorcado.exe
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\TP04_Ahorcado.deps.json
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\TP04_Ahorcado.runtimeconfig.json
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\TP04_Ahorcado.dll
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\TP04_Ahorcado.pdb
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.GeneratedMSBuildEditorConfig.editorconfig
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.AssemblyInfoInputs.cache
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.AssemblyInfo.cs
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.csproj.CoreCompileInputs.cache
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.MvcApplicationPartsAssemblyInfo.cache
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.RazorAssemblyInfo.cache
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.RazorAssemblyInfo.cs
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets.build.json
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets.development.json
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets\msbuild.TP04_Ahorcado.Microsoft.AspNetCore.StaticWebAssets.props
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets\msbuild.build.TP04_Ahorcado.props
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TP04_Ahorcado.props
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TP04_Ahorcado.props
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets.pack.json
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\scopedcss\bundle\TP04_Ahorcado.styles.css
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.dll
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\refint\TP04_Ahorcado.dll
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.pdb
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.genruntimeconfig.cache
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\ref\TP04_Ahorcado.dll
-Z:\.Prog 2025\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.sourcelink.json
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\appsettings.json
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\TP04_Ahorcado.staticwebassets.runtime.json
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\TP04_Ahorcado.exe
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\TP04_Ahorcado.deps.json
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\TP04_Ahorcado.runtimeconfig.json
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\TP04_Ahorcado.dll
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\bin\Debug\net8.0\TP04_Ahorcado.pdb
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.AssemblyInfoInputs.cache
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.AssemblyInfo.cs
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.csproj.CoreCompileInputs.cache
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.RazorAssemblyInfo.cache
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.RazorAssemblyInfo.cs
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.sourcelink.json
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets\msbuild.TP04_Ahorcado.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets\msbuild.build.TP04_Ahorcado.props
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TP04_Ahorcado.props
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TP04_Ahorcado.props
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\scopedcss\bundle\TP04_Ahorcado.styles.css
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.dll
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\refint\TP04_Ahorcado.dll
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.pdb
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\TP04_Ahorcado.genruntimeconfig.cache
+C:\Users\49435429\Documents\TP04_Ahorcado\TP04_Ahorcado\obj\Debug\net8.0\ref\TP04_Ahorcado.dll

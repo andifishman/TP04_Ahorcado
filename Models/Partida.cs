@@ -7,8 +7,8 @@ static class Partida
     static public int intentos { get; private set; }
     static public string palabraArriesga { get; private set; }
     static public List<char> letrasArriesga { get; private set; }
-    static public char letra { get; private set; }
     public static int contadorLetrasAcertadas = 0;
+    static public List<char> palabraSecreta  = new List<char> { '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_' };
     static HashSet<char> letrasAcertadas = new HashSet<char>();
 
     static public void InicializarPartida()
@@ -32,12 +32,17 @@ static class Partida
         if (!existe)
         {
             letrasArriesga.Add(charArriesgado);
-
-            // Si la letra está en la palabra y no la habíamos acertado antes, sumamos al contador
             if (palabra.Contains(charArriesgado) && !letrasAcertadas.Contains(charArriesgado))
             {
-                // Sumar solo una vez por cada letra única acertada
-                int cantidad = palabra.Count(c => c == charArriesgado);
+                int cantidad = 0;
+                for(int i = 0; i<palabra.Count; i++)
+                {
+                    if(palabra[i]==charArriesgado)
+                    {
+                        cantidad++;
+                        guiones(i);
+                    }
+                }
                 contadorLetrasAcertadas += cantidad;
                 letrasAcertadas.Add(charArriesgado);
             }
@@ -62,5 +67,9 @@ static class Partida
             view = "Perder";
         }
         return view;
+    }
+    static public void guiones(int i)
+    {
+        palabraSecreta[i] = palabra[i];
     }
 }

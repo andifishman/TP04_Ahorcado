@@ -1,12 +1,18 @@
 <p>@ViewBag.intentos</p>
-<p>@ViewBag.palabra</p>
-<p>@ViewBag.buenas</p>
-<form Action="@Url.Action("ahorcadoChar", "Home")" method="get">
+@{
+    
+    foreach(char char1 in ViewBag.palabra)
+    {
+        <p>@char1</p>
+    }
+}
+
+<form Action='@Url.Action("ahorcadoChar", "Home")' method="get">
 Arriesgar Letra: <input type="text" name="charArriesgado" maxlength="1" style="text-transform:uppercase">
 <button type="submit">Enviar Letra</button>
 </form>
 <br>
-<form Action="@Url.Action("ahorcadoString", "Home")" method="get">
+<form Action='@Url.Action("ahorcadoString", "Home")' method="get">
 Arriesgar Palabra: <input type="text" name="stringArriesgado" style="text-transform:uppercase">
 <button type="submit">Enviar Palabra</button>
 </form>

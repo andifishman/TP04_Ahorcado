@@ -19,6 +19,8 @@ public class HomeController : Controller
     }
      public IActionResult Jugar()
     {
+        ViewBag.intentos = Partida.intentos;
+        ViewBag.palabra = Partida.palabraSecreta;
         return View("Juego");
     }
     public IActionResult ahorcadoChar(char charArriesgado)
@@ -26,8 +28,7 @@ public class HomeController : Controller
         Partida.sumarIntento();
         string view = Partida.charAhorcado(charArriesgado);
         ViewBag.intentos = Partida.intentos;
-        ViewBag.palabra = Partida.palabraReal;
-        ViewBag.buenas = Partida.contadorLetrasAcertadas;
+        ViewBag.palabra = Partida.palabraSecreta;
         return View(view);
     }
     public IActionResult ahorcadoString(string stringArriesgado)
