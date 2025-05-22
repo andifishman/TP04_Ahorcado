@@ -20,15 +20,18 @@ public class HomeController : Controller
      public IActionResult Jugar()
     {
         ViewBag.intentos = Partida.intentos;
-        ViewBag.palabra = Partida.palabraSecreta;
+        ViewBag.letras = Partida.letrasArriesga;
+        ViewBag.palabra = Partida.guiones();
+        ViewBag.acertadad = Partida.contadorLetrasAcertadas;
         return View("Juego");
     }
     public IActionResult ahorcadoChar(char charArriesgado)
     {
-        Partida.sumarIntento();
         string view = Partida.charAhorcado(charArriesgado);
         ViewBag.intentos = Partida.intentos;
-        ViewBag.palabra = Partida.palabraSecreta;
+        ViewBag.letras = Partida.letrasArriesga;
+        ViewBag.palabra = Partida.guiones();
+        ViewBag.acertadad = Partida.contadorLetrasAcertadas;
         return View(view);
     }
     public IActionResult ahorcadoString(string stringArriesgado)

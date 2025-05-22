@@ -7,16 +7,15 @@ static class Partida
     static public int intentos { get; private set; }
     static public string palabraArriesga { get; private set; }
     static public List<char> letrasArriesga { get; private set; }
-    public static int contadorLetrasAcertadas = 0;
-    static public List<char> palabraSecreta  = new List<char> { '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_' };
+    public static int contadorLetrasAcertadas;
     static HashSet<char> letrasAcertadas = new HashSet<char>();
 
     static public void InicializarPartida()
     {
         intentos = 0;
         letrasArriesga = new List<char>();
-        contadorLetrasAcertadas = 0;
         letrasAcertadas = new HashSet<char>();
+        contadorLetrasAcertadas = 0;
     }
 
     static public void sumarIntento()
@@ -27,20 +26,20 @@ static class Partida
     static public string charAhorcado(char charArriesgado)
     {
         string view = "Juego";
+        sumarIntento();
         bool existe = letrasArriesga.Contains(charArriesgado);
-
+        int cantidad = 0;
         if (!existe)
         {
             letrasArriesga.Add(charArriesgado);
             if (palabra.Contains(charArriesgado) && !letrasAcertadas.Contains(charArriesgado))
             {
-                int cantidad = 0;
+                
                 for(int i = 0; i<palabra.Count; i++)
                 {
                     if(palabra[i]==charArriesgado)
                     {
                         cantidad++;
-                        guiones(i);
                     }
                 }
                 contadorLetrasAcertadas += cantidad;
@@ -58,7 +57,7 @@ static class Partida
     static public string stringAhorcado(string stringArriesgado)
     {
         string view = "Juego";
-        if (stringArriesgado == palabraReal)
+         if (stringArriesgado == palabraReal)
         {
             view = "Ganar";
         }
@@ -68,8 +67,28 @@ static class Partida
         }
         return view;
     }
-    static public void guiones(int i)
+    static public string guiones()
     {
-        palabraSecreta[i] = palabra[i];
+        string resultado = "";
+        foreach(char char2 in palabra)
+        {
+            char letra = char2;
+            bool letraAcertada = false;
+            foreach(char char3 in letrasArriesga)
+            {
+                if(char3 == letra)
+                {
+                    letraAcertada = true;
+                }
+            }
+            if(letraAcertada==true)
+            {
+                resultado+= letra;
+            }else
+            {
+                resultado+=" _";
+            }
+        }
+        return resultado;
     }
 }
