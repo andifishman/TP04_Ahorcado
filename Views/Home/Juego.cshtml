@@ -1,21 +1,24 @@
-<p>@ViewBag.intentos</p>
+<section>
+<p>(poner letras en mayus)</p>
+</section>
+<p>Intentos: @ViewBag.intentos</p>
 <p>Letras usadas</p>
-<p>poner letras en mayus</p>
+<ul>
 @{
-    
-    foreach(char char1 in ViewBag.letras)
+    foreach(char char1 in @ViewBag.letras)
     {
-        <p>@char1</p>
+        <li>@char1</li>
     }
 }
-<p>Palabra: @ViewBag.palabra</p>
+</ul>
+<br>
+<h3>Palabra: @ViewBag.palabra</h3>
 <p>Acertadas: @ViewBag.acertadad</p>
 <form Action='@Url.Action("ahorcadoChar", "Home")' method="get">
 Arriesgar Letra: <input type="text" name="charArriesgado" maxlength="1">
-<button type="submit">Enviar Letra</button>
+<button type="submit"class="boton">Enviar Letra</button>
 </form>
-<br>
 <form Action='@Url.Action("ahorcadoString", "Home")' method="get">
 Arriesgar Palabra: <input type="text" name="stringArriesgado" style="text-transform:uppercase">
-<button type="submit">Enviar Palabra</button>
+<button type="submit"class="boton">Enviar Palabra</button>
 </form>
